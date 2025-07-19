@@ -677,7 +677,122 @@ let songs = [
                 { time: 265, text: "Crushed like a bug in the ground" },
                 { time: 272, text: "Let down and hanging around" }
         ]
+    },
+    {
+        title: "Happiness",
+        artist: "Rex Orange County",
+        album: "Apricot Princess",
+        albumArtUrl: "song/happiness.jpg",
+        audioSrc: "song/Happiness - Rex Orange County.mp3",
+        videoBgSrc: "video/happiness.mp4",
+        lyrics: [
+            { time: 0, text: "I'll be the one that stays 'til the end" },
+            { time: 7, text: "And I'll be the one that needs you again" },
+            { time: 13, text: "And I'll be the one that proposes in a garden of roses" },
+            { time: 22, text: "And truly loves you long after our curtain closes" },
+    
+            { time: 29, text: "But will you still love me when nobody wants me around?" },
+            { time: 41, text: "When I turn 81 and forget things, will you still be proud?" },
+    
+            { time: 54, text: "'Cause I am the one that's waited this long" },
+            { time: 61, text: "And I am the one that might get it wrong" },
+            { time: 67, text: "And I'll be the one that will love you the way I'm supposed to, girl" },
+    
+            { time: 83, text: "But will you still love me when nobody wants me around?" },
+            { time: 96, text: "When I turn 81 and forget things, will you still be proud?" },
+    
+            { time: 110, text: "Proud of me, of my short list of accomplishments" },
+            { time: 117, text: "Me and my lack of new news" },
+            { time: 124, text: "Me and my selfishness, me and myself" },
+    
+            { time: 130, text: "Wish you nothing but a happy new version of you" },
+            { time: 138, text: "Because I" },
+            { time: 141, text: "I, mmm" },
+    
+            { time: 146, text: "Mmm-mmm-mmm, mmm-mmm, yeah" },
+            { time: 151, text: "I want you to tell me you find it hard to be yourself" },
+            { time: 158, text: "So I can say it's gonna be alright, yeah" },
+            { time: 165, text: "And I want you to love me the way you love your family" },
+    
+            { time: 171, text: "The way you love to show me what it's like" },
+            { time: 179, text: "To be happy" },
+    
+        ]
+    },
+    {
+        title: "No. 1 Party Anthem",
+        artist: "Arctic Monkeys",
+        album: "AM",
+        albumArtUrl: "song/no1partyanthem.png",
+        audioSrc: "song/No. 1 Party Anthem - Arctic Monkeys.mp3",
+        videoBgSrc: "video/no1partyanthem.mp4",
+        lyrics: [
+            
+            { time: 3, text: "So you're on the prowl wondering whether" },
+            { time: 7, text: "She left already or not" },
+            { time: 11, text: "Leather jacket, collar popped like antenna" },
+            { time: 15, text: "Never knowin' when to stop" },
+            { time: 19, text: "Sunglasses indoors" },
+            { time: 21, text: "Par for the course" },
+            { time: 23, text: "Lights in the floors and sweat on the walls" },
+            { time: 29, text: "Cages and poles" },
+    
+            
+            { time: 36, text: "Call off the search for your soul" },
+            { time: 39, text: "Or put it on hold again" },
+            { time: 41, text: "She's having a sly indoor smoke" },
+            { time: 45, text: "And she calls the folks who run this, her oldest friends" },
+            { time: 50, text: "Sippin' her drink and laughin' at imaginary jokes" },
+            { time: 55, text: "As all the signals are sent, her eyes invite you to approach" },
+            { time: 62, text: "And it seems as though those lumps in your throat" },
+            { time: 66, text: "That you just swallowed have got you going" },
+    
+           
+            { time: 71, text: "Come on, come on, come on" },
+            { time: 75, text: "Come on, come on, come on" },
+            { time: 78, text: "Number one party anthem" },
+    
+            
+            { time: 87, text: "She's a certified mind blower" },
+            { time: 90, text: "Knowing full well that I know" },
+            { time: 95, text: "May suggest there's somewhere from which I might know her" },
+            { time: 99, text: "Just to get the ball to roll" },
+            { time: 102, text: "Drunken monologues, confused because" },
+            { time: 106, text: "It's not like I'm falling in love, I just want you" },
+            { time: 111, text: "To do me no good" },
+            { time: 115, text: "And you look like you could" },
+    
+            
+            { time: 120, text: "Come on, come on, come on" },
+            { time: 125, text: "Come on, come on, come on" },
+            { time: 128, text: "Number one party anthem" },
+            { time: 134, text: "Come on, come on, come on" },
+            { time: 138, text: "Before the moment's gone" },
+            { time: 141, text: "Number one party anthem, yeah, yeah" },
+    
+        
+            { time: 149, text: "The look of love, the rush of blood" },
+            { time: 153, text: "The \"She's with me\"s, the Gallic shrug" },
+            { time: 158, text: "The shutterbugs, the Camera Plus" },
+            { time: 162, text: "The black & white and the colour dodge" },
+            { time: 166, text: "The good time girls, the cubicles" },
+            { time: 170, text: "The house of fun, the number one" },
+            { time: 176, text: "Party anthem, oh" },
+    
+            
+            { time: 196, text: "Come on, come on, come on" },
+            { time: 200, text: "Come on, come on, come on" },
+            { time: 204, text: "Come on, come on, come on" },
+            { time: 208, text: "Come on, come on, come on" },
+            { time: 213, text: "Before the moment's gone" },
+            { time: 216, text: "Number one party anthem" },
+            { time: 221, text: "Number one party anthem" },
+            { time: 224, text: "Number one party anthem" },
+            { time: 230, text: "Yeah, yeah" }
+        ]
     }
+    
+    
       
 ]     
         
