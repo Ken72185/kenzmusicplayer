@@ -694,14 +694,14 @@ let songs = [
             { time: 29, text: "But will you still love me when nobody wants me around?" },
             { time: 41, text: "When I turn 81 and forget things, will you still be proud?" },
     
-            { time: 54, text: "'Cause I am the one that's waited this long" },
+            { time: 54, text: "'Cause I am the one who's waited this long" },
             { time: 61, text: "And I am the one that might get it wrong" },
             { time: 67, text: "And I'll be the one that will love you the way I'm supposed to, girl" },
     
             { time: 83, text: "But will you still love me when nobody wants me around?" },
             { time: 96, text: "When I turn 81 and forget things, will you still be proud?" },
     
-            { time: 110, text: "Proud of me, of my short list of accomplishments" },
+            { time: 110, text: "Proud of me, and my short list of accomplishments" },
             { time: 117, text: "Me and my lack of new news" },
             { time: 124, text: "Me and my selfishness, me and myself" },
     
