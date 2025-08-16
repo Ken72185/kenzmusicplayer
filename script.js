@@ -791,6 +791,8 @@ let songs = [
             { time: 230, text: "Yeah, yeah" }
         ]
     },
+         
+
     {
         title: "Piano Man",
         artist: "Billy Joel",
@@ -808,11 +810,6 @@ let songs = [
             { time: 66, text: "But it's sad, and it's sweet, and I knew it complete" },
             { time: 70, text: "When I wore a younger man's clothes" },
             { time: 74, text: "La, la-la, di-dee-da" },
-            { time: 79, text: "La-la, di-dee-da da-dum" },
-            { time: 87, text: "Sing us a song, you're the piano man" },
-            { time: 91, text: "Sing us a song tonight" },
-            { time: 95, text: "Well, we're all in the mood for a melody" },
-            { time: 99, text: "And you've got us feelin' alright" },
             { time: 116, text: "Now John at the bar is a friend of mine" },
             { time: 121, text: "He gets me my drinks for free" },
             { time: 125, text: "And he's quick with a joke, or to light up your smoke" },
@@ -850,7 +847,103 @@ let songs = [
             { time: 305, text: "Well, we're all in the mood for a melody" },
             { time: 310, text: "And you've got us feelin' alright" }
         ]
-    }
+    },
+
+    {
+        title: "Payphone",
+        artist: "Maroon 5 ft. Wiz Khalifa",
+        album: "Overexposed",
+        albumArtUrl: "song/payphone.png",
+        audioSrc: "song/Payphone - Maroon 5.mp3",
+        videoBgSrc: "video/payphone.mp4",
+        lyrics: [
+            { time: 0, text: "I'm at a payphone, tryin' to call home" },
+            { time: 5, text: "All of my change I spent on you" },
+            { time: 9, text: "Where have the times gone? Baby, it's all wrong" },
+            { time: 13, text: "Where are the plans we made for two?" },
+    
+            { time: 18, text: "Yeah, I, I know it's hard to remember" },
+            { time: 21, text: "The people we used to be" },
+            { time: 23, text: "It's even harder to picture" },
+            { time: 26, text: "That you're not here next to me" },
+            { time: 28, text: "You say it's too late to make it" },
+            { time: 30, text: "But is it too late to try?" },
+            { time: 32, text: "And in our time that you wasted" },
+            { time: 34, text: "All of our bridges burned down" },
+    
+            { time: 37, text: "I've wasted my nights" },
+            { time: 39, text: "You turned out the lights" },
+            { time: 41, text: "Now I'm paralyzed" },
+            { time: 43, text: "Still stuck in that time" },
+            { time: 45, text: "When we called it love" },
+            { time: 47, text: "But even the sun sets in paradise" },
+    
+            { time: 52, text: "I'm at a payphone, tryin' to call home" },
+            { time: 57, text: "All of my change I spent on you" },
+            { time: 61, text: "Where have the times gone? Baby, it's all wrong" },
+            { time: 65, text: "Where are the plans we made for two?" },
+            { time: 69, text: "If happy-ever-afters did exist" },
+            { time: 74, text: "I would still be holdin' you like this" },
+            { time: 78, text: "All those fairytales are full of shit" },
+            { time: 83, text: "One more fuckin' love song, I'll be sick, oh" },
+    
+            { time: 89, text: "You turned your back on tomorrow" },
+            { time: 91, text: "'Cause you forgot yesterday" },
+            { time: 93, text: "I gave you my love to borrow" },
+            { time: 96, text: "But you just gave it away" },
+            { time: 97, text: "You can't expect me to be fine" },
+            { time: 100, text: "I don't expect you to care" },
+            { time: 102, text: "I know I said it before, but" },
+            { time: 104, text: "All of our bridges burned down" },
+    
+            { time: 107, text: "I've wasted my nights" },
+            { time: 109, text: "You turned out the lights" },
+            { time: 111, text: "Now I'm paralyzed" },
+            { time: 113, text: "Still stuck in that time" },
+            { time: 115, text: "When we called it love" },
+            { time: 117, text: "But even the sun sets in paradise" },
+    
+            { time: 122, text: "I'm at a payphone, tryin' to call home" },
+            { time: 126, text: "All of my change I spent on you" },
+            { time: 131, text: "Where have the times gone? Baby, it's all wrong" },
+            { time: 135, text: "Where are the plans we made for two?" },
+            { time: 139, text: "If happy-ever-afters did exist" },
+            { time: 144, text: "I would still be holdin' you like this" },
+            { time: 148, text: "And all those fairytales are full of shit" },
+            { time: 153, text: "One more fuckin' love song, I'll be sick" },
+            { time: 157, text: "Now I'm at a payphone" },
+    
+            { time: 159, text: "Man, fuck that shit" },
+            { time: 160, text: "I be out spendin' all this money while you sittin' 'round" },
+            { time: 162, text: "Wonderin' why it wasn't you who came up from nothin'" },
+            { time: 165, text: "Made it from the bottom, now when you see me, I'm stuntin'" },
+            { time: 167, text: "And all of my cars start with the push of a button" },
+            { time: 169, text: "Tellin' me I changed since I blew up or whatever you call it" },
+            { time: 171, text: "Switched the number to my phone so you never could call it" },
+            { time: 174, text: "Don't need my name on my shirt, you can tell that I'm ballin'" },
+            { time: 176, text: "Swish, what a shame, coulda got picked" },
+            { time: 178, text: "Had a really good game, but you missed your last shot" },
+            { time: 180, text: "So you talk about who you see at the top" },
+            { time: 182, text: "Or what you coulda saw, but sad to say it's over for" },
+            { time: 184, text: "Phantom pulled up, valet open doors" },
+            { time: 186, text: "Wished I'd go away, got what you was looking for" },
+            { time: 189, text: "Now it's me who they want" },
+            { time: 190, text: "So you can go and take that little piece of shit with you" },
+    
+            { time: 192, text: "Yeah, I'm at a payphone, tryin' to call home" },
+            { time: 196, text: "All of my change I spent on you" },
+            { time: 200, text: "Where have the times gone? Baby, it's all wrong" },
+            { time: 205, text: "Where are the plans we made for two?" },
+            { time: 209, text: "If happy-ever-after's did exist" },
+            { time: 213, text: "I would still be holdin' you like this" },
+            { time: 218, text: "And all these fairytales are full of shit" },
+            { time: 222, text: "One more fuckin' love song, I'll be sick" },
+            { time: 226, text: "Yeah, now I'm at a payphone" }
+        ]
+    },
+    
+
+    
     
     
     
