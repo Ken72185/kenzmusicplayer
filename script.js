@@ -694,14 +694,14 @@ let songs = [
             { time: 29, text: "But will you still love me when nobody wants me around?" },
             { time: 41, text: "When I turn 81 and forget things, will you still be proud?" },
     
-            { time: 54, text: "'Cause I am the one who's waited this long" },
+            { time: 54, text: "'Cause I am the one that's waited this long" },
             { time: 61, text: "And I am the one that might get it wrong" },
             { time: 67, text: "And I'll be the one that will love you the way I'm supposed to, girl" },
     
             { time: 83, text: "But will you still love me when nobody wants me around?" },
             { time: 96, text: "When I turn 81 and forget things, will you still be proud?" },
     
-            { time: 110, text: "Proud of me, and my short list of accomplishments" },
+            { time: 110, text: "Proud of me, of my short list of accomplishments" },
             { time: 117, text: "Me and my lack of new news" },
             { time: 124, text: "Me and my selfishness, me and myself" },
     
@@ -941,6 +941,125 @@ let songs = [
             { time: 226, text: "Yeah, now I'm at a payphone" }
         ]
     },
+    {
+        title: "Wonderwall",
+        artist: "Oasis",
+        album: "(What's the Story) Morning Glory?",
+        albumArtUrl: "song/wonderwall.png",
+        audioSrc: "song/Wonderwall - Oasis.mp3",
+        videoBgSrc: "video/wonderwall.mp4",
+        lyrics: [
+          // Verse 1
+          { time: 38, text: "Today is gonna be the day" },
+          { time: 40, text: "That they're gonna throw it back to you" },
+          { time: 44, text: "By now, you should've somehow" },
+          { time: 46, text: "Realised what you gotta do" },
+          { time: 49, text: "I don't believe that anybody" },
+          { time: 51, text: "Feels the way I do about you now" },
+      
+          // Verse 2
+          { time: 60, text: "Backbeat, the word is on the street" },
+          { time: 62, text: "That the fire in your heart is out" },
+          { time: 65, text: "I'm sure you've heard it all before" },
+          { time: 67, text: "But you never really had a doubt" },
+          { time: 71, text: "I don't believe that anybody" },
+          { time: 73, text: "Feels the way I do about you now" },
+      
+          // Pre-Chorus
+          { time: 81, text: "And all the roads we have to walk are winding" },
+          { time: 87, text: "And all the lights that lead us there are blinding" },
+          { time: 93, text: "There are many things that I would like to say to you" },
+          { time: 97, text: "But I don't know how" },
+      
+          // Chorus
+          { time: 103, text: "Because maybe" },
+          { time: 108, text: "You're gonna be the one that saves me" },
+          { time: 113, text: "And after all" },
+          { time: 118, text: "You're my wonderwall" },
+      
+          // Verse 3
+          { time: 130, text: "Today was gonna be the day" },
+          { time: 132, text: "But they'll never throw it back to you" },
+          { time: 136, text: "By now, you should've somehow" },
+          { time: 138, text: "Realised what you're not to do" },
+          { time: 141, text: "I don't believe that anybody" },
+          { time: 144, text: "Feels the way I do about you now" },
+      
+          // Pre-Chorus 2
+          { time: 152, text: "And all the roads that lead you there were winding" },
+          { time: 157, text: "And all the lights that light the way are blinding" },
+          { time: 163, text: "There are many things that I would like to say to you" },
+          { time: 167, text: "But I don't know how" },
+      
+          // Chorus 2
+          { time: 174, text: "I said maybe" },
+          { time: 178, text: "You're gonna be the one that saves me" },
+          { time: 184, text: "And after all" },
+          { time: 189, text: "You're my wonderwall" },
+          { time: 196, text: "I said maybe (I said maybe)" },
+          { time: 200, text: "You're gonna be the one that saves me" },
+          { time: 206, text: "And after all" },
+          { time: 211, text: "You're my wonderwall" },
+      
+          // Outro
+          { time: 218, text: "I said maybe (I said maybe)" },
+          { time: 222, text: "You're gonna be the one that saves me (That saves me)" },
+          { time: 228, text: "You're gonna be the one that saves me (That saves me)" },
+          { time: 233, text: "You're gonna be the one that saves me (That saves me)" }
+        ]
+      },
+
+      {
+        title: "Married With Children",
+        artist: "Oasis",
+        album: "Definitely Maybe",
+        albumArtUrl: "song/marriedwithchildren.jpg",
+        audioSrc: "song/Married With Children - Oasis.mp3",
+        videoBgSrc: "video/marriedwithchildren.mp4",
+        lyrics: [
+          // Chorus 1
+          { time: 26, text: "There's no need for you to say you're sorry" },
+          { time: 30, text: "Goodbye, I'm going home" },
+          { time: 36, text: "I don't care no more so don't you worry" },
+          { time: 41, text: "Goodbye, I'm going home" },
+      
+          // Verse 1
+          { time: 47, text: "I hate the way that even though you know you're wrong" },
+          { time: 53, text: "You say you're right" },
+          { time: 58, text: "I hate the books you read and all your friends" },
+          { time: 63, text: "Your music's shite, it keeps me up all night, up all night" },
+      
+          // Chorus 2
+          { time: 69, text: "There's no need for you to say you're sorry" },
+          { time: 73, text: "Goodbye, I'm going home" },
+          { time: 80, text: "I don't care no more so don't you worry" },
+          { time: 84, text: "Goodbye, I'm going home" },
+      
+          // Verse 2
+          { time: 91, text: "I hate the way that you are so sarcastic" },
+          { time: 95, text: "And you're not very bright" },
+          { time: 101, text: "You think that everything you've done's fantastic" },
+          { time: 106, text: "Your music's shite, it keeps me up all night, up all night" },
+      
+          // Instrumental Break (placeholder)
+          { time: 113, text: "[Instrumental Break]" },
+      
+          // Bridge
+          { time: 135, text: "And it will be nice to be alone" },
+          { time: 140, text: "For a week or two" },
+          { time: 145, text: "But I know then I will be right" },
+          { time: 150, text: "Right back here with you, with you, with you, with you" },
+          { time: 157, text: "With you, with you, with you" },
+      
+          // Chorus 3 (Outro)
+          { time: 164, text: "There's no need for you to say you're sorry" },
+          { time: 169, text: "Goodbye, I'm going home" },
+          { time: 175, text: "I don't care no more so don't you worry" },
+          { time: 180, text: "Goodbye, I'm going home" }
+        ]
+      }
+      
+      
     
 
     
