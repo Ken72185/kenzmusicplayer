@@ -1057,7 +1057,111 @@ let songs = [
           { time: 175, text: "I don't care no more so don't you worry" },
           { time: 180, text: "Goodbye, I'm going home" }
         ]
+      },
+
+      {
+        title: "Multo",
+        artist: "Cup Of Joe",
+        album: "Single",
+        albumArtUrl: "song/multo.png",
+        audioSrc: "song/Multo.mp3",
+        videoBgSrc: "video/multo.mp4",
+        lyrics: [
+          { time: 23, text: "Humingang malalim, pumikit na muna" },
+          { time: 32, text: "At baka sakaling namamalikmata lang" },
+          { time: 41, text: "Ba't nababahala? 'Di ba't ako'y mag-isa?" },
+          { time: 50, text: "Kala ko'y payapa, boses mo'y tumatawag pa" },
+      
+          { time: 59, text: "Binaon naman na ang lahat" },
+          { time: 64, text: "Tinakpan naman na 'king sugat" },
+          { time: 69, text: "Ngunit ba't ba andito pa rin?" },
+          { time: 74, text: "Hirap na 'kong intindihin" },
+      
+          { time: 78, text: "Tanging panalangin, lubayan na sana" },
+          { time: 87, text: "Dahil sa bawat tingin, mukha mo'y nakikita" },
+          { time: 96, text: "Kahit sa'n man mapunta ay anino mo'y kumakapit sa'king kamay" },
+          { time: 105, text: "Ako ay dahan-dahang nililibing nang buhay pa" },
+      
+          { time: 115, text: "Hindi na makalaya, dinadalaw mo 'ko bawat gabi" },
+          { time: 123, text: "Wala mang nakikita, haplos mo'y ramdam pa rin sa dilim" },
+          { time: 133, text: "Hindi na na-nanaginip, hindi na ma-makagising" },
+          { time: 142, text: "Pasindi na ng ilaw" },
+          { time: 147, text: "Minumulto na 'ko ng damdamin ko, ng damdamin ko" },
+      
+          { time: 153, text: "Hindi mo ba ako lilisanin?" },
+          { time: 158, text: "Hindi pa ba sapat pagpapahirap sa 'kin? (Ng damdamin ko)" },
+          { time: 162, text: "Hindi na ba ma-mamamayapa?" },
+          { time: 167, text: "Hindi na ba ma-mamamayapa?" },
+      
+          { time: 170, text: "Hindi na makalaya, dinadalaw mo 'ko bawat gabi" },
+          { time: 179, text: "Wala mang nakikita, haplos mo'y ramdam pa rin sa dilim" },
+          { time: 189, text: "Hindi na na-nanaginip, hindi na ma-makagising" },
+          { time: 198, text: "Pasindi na ng ilaw" },
+          { time: 202, text: "Minumulto na 'ko ng damdamin ko, ng damdamin ko" },
+      
+          { time: 208, text: "(Makalaya) Hindi mo ba ako lilisanin?" },
+          { time: 212, text: "(Dinadalaw mo 'ko bawat gabi) Hindi pa ba sapat pagpapahirap sa 'kin" },
+          { time: 217, text: "(Wala mang nakikita) Hindi na ba ma-mamamayapa?" },
+          { time: 221, text: "(Haplos mo'y ramdam pa rin sa dilim) Hindi na ba ma-mamamayapa" }
+        ]
+      },
+
+      {
+        title: "Oh Ok (Release the Files)",
+        artist: "Ian & Sochi",
+        album: "Single",
+        albumArtUrl: "song/ohok.png",
+        audioSrc: "song/Oh Ok (Release the Files) - Ian & Sochi.mp3",
+        videoBgSrc: "video/ohok.mp4",
+        lyrics: [
+          // Intro
+          { time: 0, text: "Hmm" },
+          { time: 3, text: "Hmm" },
+          { time: 5, text: "Hmm" },
+      
+          // Verse 1
+          { time: 6, text: "Walk in that bitch like, 'How the hell y'all doin'? How y'all feelin' today?'" },
+          { time: 9, text: "Ready to turn myself in down at the station, I made a killin' today" },
+          { time: 12, text: "Always gon' be money, always gon' be hoes, always gon' be somethin'" },
+          { time: 16, text: "Only thing you got is your word, I put that shit on my momma" },
+          { time: 19, text: "Nah, you really just can't get comfy, gotta keep at it, buddy" },
+          { time: 22, text: "'Fore I had this money, wasn't worry 'bout nothin', that shit feel backwards to me" },
+          { time: 25, text: "\"ian always gettin' high, what happened to him? ian, what happened to ya?\"" },
+          { time: 28, text: "I'm the same I was, I'm just gettin' paid with a few more habits now" },
+          { time: 31, text: "Aw, shit, here we go again" },
+      
+          // Chorus
+          { time: 34, text: "I'm on timin', bitch, you don't know what time it is? Oh, okay" },
+          { time: 37, text: "Oh, you got migraines? You don't wanna ride this shit? Oh, okay" },
+          { time: 40, text: "Plug like, 'Goddamn, you really want every flavor? Oh, okay'" },
+          { time: 44, text: "You weren't 'round then, but you wanna come cryin', bitch? Oh, okay" },
+      
+          // Verse 2
+          { time: 47, text: "Damn, it's gettin' hot in here, take off all your clothes" },
+          { time: 49, text: "Damn, I'm feelin' like 50 Cent, bitch, I'm in the club" },
+          { time: 53, text: "Damn, I'm on my Britney shit, oops, I hit again" },
+          { time: 56, text: "Damn, I'm on my DJ Khaled shit, we the best" },
+          { time: 59, text: "Damn, we rollin' hella deep, I feel like Adele" },
+          { time: 62, text: "Damn, kiss me through the phone, suck me through the cell" },
+          { time: 65, text: "Damn, I'm a lil' too high for this, Jesus, take the wheel" },
+      
+          // Chorus 2
+          { time: 69, text: "I'm on timin', bitch, you don't know what time it is? Oh, okay" },
+          { time: 72, text: "Oh, you got migraines? You don't wanna ride this shit? Oh, okay" },
+          { time: 75, text: "Plug like, 'Goddamn, you really want every flavor? Oh, okay'" },
+          { time: 78, text: "You weren't 'round then, but you wanna come cryin', bitch?" },
+          { time: 81, text: "I'm on-I'm on-I'm on timin', bitch, you don't know what time it is? Oh, okay" },
+          { time: 84, text: "Oh, you got migraines? You don't wanna ride this shit? Oh, okay" },
+          { time: 87, text: "Plug like, 'Goddamn, you really want every flavor? Oh, okay'" },
+          { time: 91, text: "You weren't 'round then, but you wanna come cryin', bitch? Oh, okay" },
+      
+          // Outro
+          { time: 94, text: "Hmm" },
+          { time: 97, text: "Hmm" }
+        ]
       }
+      
+      
       
       
     
