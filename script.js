@@ -1450,51 +1450,47 @@ function scrollToActiveLyric() {
   }
   
 
+  let lastHighlightedIndex = -1;
 
 audioPlayer.addEventListener('timeupdate', () => {
-    if (audioPlayer.duration) {
-        const progressPercent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
-        playerProgressBar.style.width = `${progressPercent}%`;
-        playerCurrentTime.textContent = formatTime(audioPlayer.currentTime);
-        
-        // --- Logic highlight lirik ---
-        const currentTime = audioPlayer.currentTime;
-        const lyricLines = lyricsContainer.querySelectorAll('.lyric-line');
-        let highlightedLine = null;
+    if (!audioPlayer.duration) return;
 
-        lyricLines.forEach((line, index) => {
-            const lineTime = parseFloat(line.getAttribute('data-time'));
-            // Tentukan waktu berakhir baris lirik ini. Jika ini baris terakhir, anggap berakhir di akhir lagu.
-            // Atau, lebih baik, anggap berakhir tepat sebelum baris berikutnya dimulai.
-            let nextLineTime = Infinity; 
-            if (index + 1 < lyricLines.length) {
-                nextLineTime = parseFloat(lyricLines[index + 1].getAttribute('data-time'));
-            }
+    const progressPercent = (audioPlayer.currentTime / audioPlayer.duration) * 100;
+    playerProgressBar.style.width = `${progressPercent}%`;
+    playerCurrentTime.textContent = formatTime(audioPlayer.currentTime);
 
-            if (currentTime >= lineTime && currentTime < nextLineTime) {
-                line.classList.add('highlight');
-                highlightedLine = line;
-            } else {
-                line.classList.remove('highlight');
-            }
-        });
+    const currentTime = audioPlayer.currentTime;
+    const lyricLines = lyricsContainer.querySelectorAll('.lyric-line');
+    let newHighlightedIndex = -1;
 
-        // --- Auto-scroll lirik hanya jika baris yang disorot tidak terlihat ---
-        if (highlightedLine) {
-            const containerRect = lyricsContainer.getBoundingClientRect();
-            const lineRect = highlightedLine.getBoundingClientRect();
+    // --- Tentukan baris aktif ---
+    lyricLines.forEach((line, index) => {
+        const start = parseFloat(line.getAttribute('data-time'));
+        const end = index + 1 < lyricLines.length 
+            ? parseFloat(lyricLines[index + 1].getAttribute('data-time')) 
+            : audioPlayer.duration;
 
-            // Periksa apakah baris di luar viewport kontainer
-            const isOutsideTop = lineRect.top < containerRect.top;
-            const isOutsideBottom = lineRect.bottom > containerRect.bottom;
-
-            if (isOutsideTop || isOutsideBottom) {
-                // Scroll agar baris terdekat muncul di dalam viewport, dengan animasi smooth
-                highlightedLine.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-            }
+        if (currentTime >= start && currentTime < end) {
+            newHighlightedIndex = index;
         }
+    });
+
+    // --- Jika baris aktif berubah ---
+    if (newHighlightedIndex !== -1 && newHighlightedIndex !== lastHighlightedIndex) {
+        // Hapus highlight lama
+        lyricLines.forEach(line => line.classList.remove('highlight'));
+
+        // Tambah highlight baru
+        const newLine = lyricLines[newHighlightedIndex];
+        newLine.classList.add('highlight');
+
+        // Scroll halus ke tengah layar
+        newLine.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+        lastHighlightedIndex = newHighlightedIndex;
     }
 });
+
 
 function formatTime(seconds) {
     const minutes = Math.floor(seconds / 60);
