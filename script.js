@@ -1159,7 +1159,64 @@ let songs = [
           { time: 94, text: "Hmm" },
           { time: 97, text: "Hmm" }
         ]
+      },
+
+      {
+        title: "Kasih Putih",
+        artist: "Glenn Fredly",
+        album: "Single",
+        albumArtUrl: "song/kasihputih.jpg",
+        audioSrc: "song/Kasih Putih - Glenn Fredly.mp3",
+        videoBgSrc: "video/kasihputih.mp4",
+        lyrics: [
+          { time: 25, text: "Terdalam yang pernah kurasa" },
+          { time: 32, text: "Hasratku hanyalah untukmu" },
+          { time: 37, text: "Terukir manis" },
+          { time: 40, text: "Dalam renunganku" },
+          { time: 43, text: "Jiwamu, jiwaku menyatu" },
+      
+          { time: 48, text: "Biarkanlah kurasakan" },
+          { time: 53, text: "Hangatnya sentuhan kasihmu" },
+          { time: 59, text: "Bawa daku penuhiku" },
+          { time: 64, text: "Berilah diriku" },
+          { time: 68, text: "Kasih putih di hatiku" },
+          { time: 72, text: "Kudatang padamu kekasihku" },
+      
+          { time: 81, text: "Kucurahkan isi jiwaku" },
+          { time: 86, text: "Hanya padamu" },
+          { time: 89, text: "Dalam air itu" },
+          { time: 92, text: "Kau bawa selamanya diriku" },
+      
+          { time: 96, text: "Biarkanlah kurasakan" },
+          { time: 101, text: "Hangatnya sentuhan kasihmu" },
+          { time: 107, text: "Bawa daku penuhiku" },
+          { time: 113, text: "Berilah diriku" },
+          { time: 116, text: "Kasih putih di hatiku" },
+      
+          { time: 121, text: "Peluk daku oh kasihku" },
+          { time: 129, text: "Taburiku dengan cinta" },
+          { time: 137, text: "Biarkanlah kurasakan" },
+          { time: 141, text: "Hangatnya sentuhan kasihmu" },
+          { time: 148, text: "Bawa daku penuhiku" },
+          { time: 153, text: "Berilah diriku kasihmu" },
+      
+          { time: 163, text: "Biarkanlah kurasakan" },
+          { time: 169, text: "Hangatnya sentuhan kasihmu" },
+          { time: 175, text: "Bawa daku penuhiku" },
+          { time: 181, text: "Berilah diriku" },
+          { time: 184, text: "Kasih putih di hatiku" },
+
+          { time: 191, text: "Biarkanlah kurasakan" },
+          { time: 196, text: "Hangatnya sentuhan kasihmu" },
+          { time: 202, text: "Bawa daku penuhiku" },
+          { time: 207, text: "Berilah diriku" },
+          { time: 211, text: "Kasih putih di hatiku" },
+      
+          { time: 216, text: "Kutemukan arti hidupku" },
+          { time: 223, text: "Denganmu" }
+        ]
       }
+      
       
       
       
